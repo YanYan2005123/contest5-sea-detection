@@ -1,0 +1,10 @@
+# 赛题5 海面目标检测器 — 隔离依赖
+# 在独立 venv 安装，不影响 shipmind 主 requirements.txt
+# Python >= 3.10
+ultralytics>=8.3.0
+torch>=2.0
+torchvision>=0.15
+pillow>=10.0
+pyyaml>=6.0
+opencv-python>=4.8
+numpy>=1.26

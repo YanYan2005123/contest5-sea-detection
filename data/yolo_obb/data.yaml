@@ -1,0 +1,20 @@
+# 赛题5 海面目标检测 — YOLO-OBB 数据配置
+# 注意：images/ 目录需自行放入比赛下载的图片（见根目录 README.md）
+# labels/ 已随本仓库提供（YOLO-OBB 格式标注）
+
+# 使用相对路径，clone 后即可直接训练
+path: .
+train: images/train
+val: images/val
+
+nc: 9
+names:
+  0: 驱逐舰
+  1: 护卫舰
+  2: 渔船
+  3: 杂货船
+  4: 液体运输船
+  5: 航母
+  6: 保障船
+  7: 散装货船
+  8: 集装箱船
